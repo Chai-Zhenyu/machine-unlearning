@@ -6,10 +6,10 @@ IFS=$'\n\t'
 shards=$1
     
 if [[ ! -d "containers/${shards}" ]] ; then
-    mkdir "containers/${shards}"
-    mkdir "containers/${shards}/cache"
-    mkdir "containers/${shards}/times"
-    mkdir "containers/${shards}/outputs"
+    mkdir -p "containers/${shards}"
+    mkdir -p "containers/${shards}/cache"
+    mkdir -p "containers/${shards}/times"
+    mkdir -p "containers/${shards}/outputs"
     echo 0 > "containers/${shards}/times/null.time"
 fi
 
