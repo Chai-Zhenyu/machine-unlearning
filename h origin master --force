@@ -1,0 +1,92 @@
+[33mcommit f4998fd84abf20ab61a72ec47e61c4b3a5dde6db[m[33m ([m[1;36mHEAD -> [m[1;32mwinVersion[m[33m)[m
+Author: Chai-Zhenyu <96948332+Chai-Zhenyu@users.noreply.github.com>
+Date:   Sun Oct 15 17:32:14 2023 +0800
+
+    nore
+
+[33mcommit a67bdd430ce49a9d6f8416448369aee4bdbc295a[m
+Author: Chai-Zhenyu <96948332+Chai-Zhenyu@users.noreply.github.com>
+Date:   Sun Oct 15 17:26:18 2023 +0800
+
+    win version
+
+[33mcommit 50a3ada6c777f6882a1764d74a4978bfd61ec6f9[m[33m ([m[1;32mmaster[m[33m)[m
+Merge: 63dbe85 6fc8883
+Author: nick-jia <44851859+nick-jia@users.noreply.github.com>
+Date:   Wed Nov 11 12:01:25 2020 -0500
+
+    Merge pull request #2 from cleverhans-lab/nick-jia-patch-1
+    
+    Add script for preparing purchase dataset
+
+[33mcommit 6fc88833fa16bb5a79207e3a0dc021a72f8641d0[m
+Author: nick-jia <44851859+nick-jia@users.noreply.github.com>
+Date:   Tue Nov 10 14:51:53 2020 -0500
+
+    Update README.txt
+
+[33mcommit 429eb0f58ca40403feb7d3caa06a2dcc487fa40b[m
+Author: nick-jia <44851859+nick-jia@users.noreply.github.com>
+Date:   Tue Nov 10 14:48:16 2020 -0500
+
+    Update prepare_data.py
+
+[33mcommit de7ee4191be8a48a8b42b4debd68dbaac595780b[m
+Author: nick-jia <44851859+nick-jia@users.noreply.github.com>
+Date:   Tue Nov 10 14:44:59 2020 -0500
+
+    add purchase data files
+
+[33mcommit 07258c8e8de00920c247bec6cf49a7943cb757cc[m
+Author: nick-jia <44851859+nick-jia@users.noreply.github.com>
+Date:   Mon Nov 9 21:59:14 2020 -0500
+
+    Update README.txt
+
+[33mcommit e1d9cb255b3b70ff02d3aac5e41bc7610e47b2a3[m
+Author: nick-jia <44851859+nick-jia@users.noreply.github.com>
+Date:   Mon Nov 9 21:59:05 2020 -0500
+
+    Update prepare_data.py
+
+[33mcommit cdf1b8cae92877ef30446a4b7652ec1674328fd3[m
+Author: nick-jia <44851859+nick-jia@users.noreply.github.com>
+Date:   Mon Nov 9 15:14:41 2020 -0500
+
+    Add script for preparing purchase dataset
+
+[33mcommit 63dbe851f9c7cf238c3166d2132be38f04aecfd3[m
+Author: Nicolas Papernot <npapernot@users.noreply.github.com>
+Date:   Sat Jun 27 11:49:28 2020 -0400
+
+    Update README.md
+
+[33mcommit 7172ffc123bf48ba7c6b387c1801ce6b39174c3b[m
+Author: atravers <26422294+alkaet@users.noreply.github.com>
+Date:   Sat Jun 27 11:47:25 2020 -0400
+
+    Update README.md
+
+[33mcommit 5dac36a17600fdc4a11a115d20027e2c602b94c8[m
+Author: atravers <26422294+alkaet@users.noreply.github.com>
+Date:   Sat Jun 27 11:44:41 2020 -0400
+
+    Update README.md
+
+[33mcommit 07ac36443e3468999a849657f95adc481ed750f5[m
+Author: atravers <26422294+alkaet@users.noreply.github.com>
+Date:   Sat Jun 27 11:36:03 2020 -0400
+
+    Update README.md
+
+[33mcommit e53ba6dd1515463ad937520d3404cf1ba9ecb487[m
+Author: atravers <26422294+alkaet@users.noreply.github.com>
+Date:   Sat Jun 27 00:54:39 2020 -0400
+
+    Update LICENSE
+
+[33mcommit b8e3d31135ca83cc7084d6f420b39e0fda58b2a7[m
+Author: machine-unlearning <machine@unlearning>
+Date:   Thu Apr 30 17:07:09 2020 -0400
+
+    machine unlearning code

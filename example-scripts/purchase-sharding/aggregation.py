@@ -31,9 +31,9 @@ dataloader = importlib.import_module(
 
 # Output files used for the vote.
 if args.baseline != None:
-    filenames = ["shard-{}:{}.npy".format(args.baseline, args.label)]
+    filenames = ["shard-{}_{}.npy".format(args.baseline, args.label)]
 else:
-    filenames = ["shard-{}:{}.npy".format(i, args.label) for i in range(args.shards)]
+    filenames = ["shard-{}_{}.npy".format(i, args.label) for i in range(args.shards)]
 
 # Concatenate output files.
 outputs = []

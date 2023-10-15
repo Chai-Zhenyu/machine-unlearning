@@ -4,6 +4,7 @@ set -eou pipefail
 IFS=$'\n\t'
 
 shards=$1
+
     
 if [[ ! -d "containers/${shards}" ]] ; then
     mkdir -p "containers/${shards}"

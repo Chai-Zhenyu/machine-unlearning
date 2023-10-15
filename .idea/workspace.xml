@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7158a163-8a57-40d0-871e-327d5a95cdf8" name="Changes" comment="nore">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-scripts/purchase-sharding/2-general-report.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-scripts/purchase-sharding/datasets/purchase/2_kmeans.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-scripts/purchase-sharding/general-report.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h origin master --force" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregation.py" beforeDir="false" afterPath="$PROJECT_DIR$/example-scripts/purchase-sharding/aggregation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/architectures/purchase.py" beforeDir="false" afterPath="$PROJECT_DIR$/example-scripts/purchase-sharding/architectures/purchase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/architectures/svhn.py" beforeDir="false" afterPath="$PROJECT_DIR$/example-scripts/purchase-sharding/architectures/svhn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/purchase/data1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/example-scripts/purchase-sharding/datasets/purchase/data1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/purchase/data2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/example-scripts/purchase-sharding/datasets/purchase/data2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/purchase/dataloader.py" beforeDir="false" afterPath="$PROJECT_DIR$/example-scripts/purchase-sharding/datasets/purchase/dataloader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/purchase/datasetfile" beforeDir="false" afterPath="$PROJECT_DIR$/example-scripts/purchase-sharding/datasets/purchase/datasetfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/purchase/prepare_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/example-scripts/purchase-sharding/datasets/purchase/prepare_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/distribution.py" beforeDir="false" afterPath="$PROJECT_DIR$/example-scripts/purchase-sharding/distribution.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example-scripts/purchase-sharding/init.sh" beforeDir="false" afterPath="$PROJECT_DIR$/example-scripts/purchase-sharding/init.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sharded.py" beforeDir="false" afterPath="$PROJECT_DIR$/example-scripts/purchase-sharding/sharded.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sisa.py" beforeDir="false" afterPath="$PROJECT_DIR$/example-scripts/purchase-sharding/sisa.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time.py" beforeDir="false" afterPath="$PROJECT_DIR$/example-scripts/purchase-sharding/time.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Chai-Zhenyu"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="59808b24-1254-42dd-b2c6-2e887bb8722a" />
+        <option name="url" value="https://github.com/Chai-Zhenyu/machine-unlearning.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2WmzPZR9VdRdSMADTJWl53xyBvi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "winVersion",
+    "last_opened_file_path": "D:/A_Research/machine_unlearning/machine_unlearning_SISA/code/my_machine_unlearning",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  }
+}]]></component>
+  <component name="RunManager" selected="Python.dataloader">
+    <configuration name="dataloader" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="my_machine_unlearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/example-scripts/purchase-sharding/datasets/purchase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/example-scripts/purchase-sharding/datasets/purchase/dataloader.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="my_machine_unlearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="prepare_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="my_machine_unlearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/example-scripts/purchase-sharding/datasets/purchase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/example-scripts/purchase-sharding/datasets/purchase/prepare_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.dataloader" />
+        <item itemvalue="Python.prepare_data" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7158a163-8a57-40d0-871e-327d5a95cdf8" name="Changes" comment="" />
+      <created>1697352519970</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1697352519970</updated>
+    </task>
+    <task id="LOCAL-00001" summary="win version">
+      <option name="closed" value="true" />
+      <created>1697361982924</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1697361982924</updated>
+    </task>
+    <task id="LOCAL-00002" summary="nore">
+      <option name="closed" value="true" />
+      <created>1697362338676</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1697362338676</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="win version" />
+    <MESSAGE value="nore" />
+    <option name="LAST_COMMIT_MESSAGE" value="nore" />
+  </component>
+</project>

@@ -17,6 +17,6 @@ else:
     label = np.load(f'{num_class}_kmeans.npy')
 
 if not os.path.exists(f'purchase{num_class}_train.npy'):
-    X_train, X_test, y_train, y_test = train_test_split(data, label, test_size=0.2)
+    X_train, X_test, y_train, y_test = train_test_split(data, label, test_size=0.1)
     np.save(f'purchase{num_class}_train.npy', {'X': X_train, 'y': y_train})
     np.save(f'purchase{num_class}_test.npy', {'X': X_test, 'y': y_test})

@@ -39,16 +39,18 @@ if args.shards != None:
     # If distribution is uniform, split without optimizing.
     if args.distribution == "uniform":
         partition = np.split(
-            np.arange(0, datasetfile["nb_train"]),
+            np.arange(0, datasetfile["nb_train"] - 1),
             [
                 t * (datasetfile["nb_train"] // args.shards)
                 for t in range(1, args.shards)
             ],
         )
+        partition = np.array(partition, dtype=object)
+        print(partition)
         np.save("containers/{}/splitfile.npy".format(args.container), partition)
-        requests = np.array([[] for _ in range(args.shards)])
+        requests = np.array([[] for _ in range(args.shards)], dtype=object)
         np.save(
-            "containers/{}/requestfile:{}.npy".format(args.container, args.label),
+            "containers/{}/requestfile_{}.npy".format(args.container, args.label),
             requests,
         )
 
@@ -149,7 +151,7 @@ if args.shards != None:
             np.save("containers/{}/splitfile.npy".format(args.container), partition)
             requests = np.array([[] for _ in range(partition.shape[0])])
             np.save(
-                "containers/{}/requestfile:{}.npy".format(args.container, args.label),
+                "containers/{}/requestfile_{}.npy".format(args.container, args.label),
                 requests,
             )
 
@@ -157,7 +159,7 @@ if args.requests != None:
     if args.distribution == "reset":
         requests = np.array([[] for _ in range(partition.shape[0])])
         np.save(
-            "containers/{}/requestfile:{}.npy".format(args.container, args.label),
+            "containers/{}/requestfile_{}.npy".format(args.container, args.label),
             requests,
         )
     else:
@@ -187,10 +189,12 @@ if args.requests != None:
         requests = []
         # Divide up the new requests among the shards.
         for shard in range(partition.shape[0]):
-            requests.append(np.intersect1d(partition[shard], all_requests))
+            requests.append(np.intersect1d(partition[shard], all_requests).tolist())
+
+        print(requests)
 
         # Update requestfile.
         np.save(
-            "containers/{}/requestfile:{}.npy".format(args.container, args.label),
-            np.array(requests),
+            "containers/{}/requestfile_{}.npy".format(args.container, args.label),
+            np.array(requests, dtype=object),
         )
